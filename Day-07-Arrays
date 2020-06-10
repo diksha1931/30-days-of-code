@@ -1,7 +1,5 @@
 input()
-
 A = str(input()).split(" ")
 A.reverse()
-
 for n in A:
     print(n + " ", end="")
