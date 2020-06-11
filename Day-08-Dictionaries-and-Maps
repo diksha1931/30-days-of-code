@@ -6,7 +6,6 @@ for line in sys.stdin:
 n = int(inputlist[0])
 entries = inputlist[1:n+1]
 queries = inputlist[n+1:]
-
 PhoneBook = {}
 for entry in entries:
     name, id = entry.split()
