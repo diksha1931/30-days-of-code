@@ -2,3 +2,10 @@ import sys
 inputlist=[]
 for line in sys.stdin:
     inputlist.append(line)
+    
+n = int(inputlist[0])
+entries = inputlist[1:n+1]
+queries = inputlist[n+1:]
+
+PhoneBook = {}
+
