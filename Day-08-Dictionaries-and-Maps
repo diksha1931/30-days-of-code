@@ -10,7 +10,6 @@ PhoneBook = {}
 for entry in entries:
     name, id = entry.split()
     PhoneBook[name] = id
-
 for query in queries:
     stripQuery = query.rstrip()
     if stripQuery in PhoneBook:
