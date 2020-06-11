@@ -1,1 +1,4 @@
-
+import sys
+inputlist=[]
+for line in sys.stdin:
+    inputlist.append(line)
