@@ -8,4 +8,13 @@ entries = inputlist[1:n+1]
 queries = inputlist[n+1:]
 
 PhoneBook = {}
+for entry in entries:
+    name, id = entry.split()
+    PhoneBook[name] = id
 
+for query in queries:
+    stripQuery = query.rstrip()
+    if stripQuery in PhoneBook:
+        print(stripQuery + "=" + str(PhoneBook[stripQuery]))
+    else:
+        print("Not found")
