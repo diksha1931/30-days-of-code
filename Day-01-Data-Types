@@ -6,11 +6,10 @@ i2 = None
 d2 = None
 s2 = None
 
-
 i2 = int(input())
 d2 = float(input())
 s2 = str(input())
-# Print the sum of both integer variables on a new line.
+
 print( i + i2)
 
 # Print the sum of the double variables on a new line.
