@@ -12,5 +12,4 @@ for i in range(6):
             if result > maximum:
                 maximum = result
 
-
 print(maximum)
