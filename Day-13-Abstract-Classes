@@ -15,8 +15,6 @@ class MyBook(Book):
     def display(self):
         print("Title: " + self.title + "\nAuthor: " + self.author + "\nPrice: " + str(self.price))
 
-#Write MyBook class
-
 title=input()
 author=input()
 price=int(input())
