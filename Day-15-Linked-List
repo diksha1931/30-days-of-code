@@ -20,8 +20,6 @@ class Solution:
         curr.next = Node(data)
      return head
 
-
-
 mylist= Solution()
 T=int(input())
 head=None
