@@ -10,7 +10,7 @@ class Solution:
             current = current.next
 
     def insert(self,head,data): 
-    #Complete this method
+   
      if head is None:
             head = Node(data)
      else:
