@@ -3,7 +3,7 @@ class Calculator:
         if n < 0 or p < 0:
             raise Exception("n and p should be non-negative")
         return pow(n, p)
-
+        
 myCalculator=Calculator()
 T=int(input())
 for i in range(T):
