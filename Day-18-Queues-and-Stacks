@@ -20,7 +20,7 @@ class Solution:
         self.queue.append(char)
 
 s=input()
-#Create the Solution class object
+
 obj=Solution()   
 
 l=len(s)
