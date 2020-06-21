@@ -19,7 +19,6 @@ class Solution:
     def enqueueCharacter(self, char):
         self.queue.append(char)
 
-# read the string s
 s=input()
 #Create the Solution class object
 obj=Solution()   
