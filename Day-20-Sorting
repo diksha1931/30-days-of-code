@@ -17,4 +17,3 @@ for i in range(n):
 print("Array is sorted in " + str(num_swaps) + " swaps.")
 print("First Element: " + str(arr[0]))
 print("Last Element: " + str(arr[len(arr) - 1]))
-
