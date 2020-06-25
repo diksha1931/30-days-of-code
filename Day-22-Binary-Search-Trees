@@ -16,8 +16,8 @@ class Solution:
         return root
 
     def getHeight(self,root):
-        #Write your code here
-     return -1 if root is None else 1 + max(self.getHeight(root.left), self.getHeight(root.right))
+      
+        return -1 if root is None else 1 + max(self.getHeight(root.left), self.getHeight(root.right))
 
 T=int(input())
 myTree=Solution()
