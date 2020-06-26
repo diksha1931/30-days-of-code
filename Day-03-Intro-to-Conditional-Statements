@@ -1,3 +1,4 @@
+#Complete the stub code provided in your editor to print whether or not n is weird
 n = int(input())
 
 if n % 2 != 0:
