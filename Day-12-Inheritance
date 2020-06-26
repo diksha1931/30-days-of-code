@@ -1,3 +1,4 @@
+#You are given two classes, Person and Student, where Person is the base class and Student is the derived class. Completed code for Person and a declaration for Student 
 class Person:
 	def __init__(self, firstName, lastName, idNumber):
 		self.firstName = firstName
