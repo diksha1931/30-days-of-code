@@ -9,7 +9,6 @@ def isPrime(n):
             return False
     return True
 
-
 for _ in range(T):
     n = int(input())
     
