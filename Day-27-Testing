@@ -1,3 +1,5 @@
+#For a given array of n integers, the function returns the index of the element with the minimum value in the array. If there is more than one element with the minimum value, the returned index should be the smallest one.
+#If an empty array is passed to the function, it should raise an Exception.
 def minimum_index(seq):
     if len(seq) == 0:
         raise ValueError("Cannot get the minimum value index from an empty sequence")
@@ -31,8 +33,6 @@ class TestDataExactlyTwoDifferentMinimums(object):
     @staticmethod
     def get_expected_result():
         return 2
-
-
 
 def TestWithEmptyArray():
     try:
@@ -69,5 +69,3 @@ TestWithEmptyArray()
 TestWithUniqueValues()
 TestiWithExactyTwoDifferentMinimums()
 print("OK")
-
-
